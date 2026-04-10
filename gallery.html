@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея робіт</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== Навігація ===== -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="images/лого1.png" alt="Логотип" class="logo">
+            <input type="search" placeholder="Пошук...">
+            <span class="phone">📞 +38 (093) 123-45-67</span>
+        </div>
+
+        <ul class="nav-menu">
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="index.html#about">Про мене</a></li>
+            <li><a href="gallery.html">Галерея</a></li>
+            <li><a href="#footer">Контакти</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== Заголовок ===== -->
+    <section class="gallery-header">
+        <h1>Галерея робіт</h1>
+    </section>
+    <div class="divider"></div>
+
+    <!-- ===== Меню категорій ===== -->
+    <section class="gallery-filter">
+        <div class="filter-menu">
+            <button class="filter-btn active" data-filter="all">Усі</button>
+            <button class="filter-btn" data-filter="identity">Фірмовий стиль</button>
+            <button class="filter-btn" data-filter="visualization">3D Max</button>
+            <button class="filter-btn" data-filter="modeling">Макетування</button>
+            <button class="filter-btn" data-filter="painting">Живопис</button>
+            <button class="filter-btn" data-filter="drawing">Рисунок</button>
+            <button class="filter-btn" data-filter="composition">Композиція</button>
+        </div>
+    </section>
+
+    <!-- ===== Галерея ===== -->
+    <section class="gallery-grid">
+
+        <article class="gallery-card" data-category="identity">
+            <img src="images/фр1.jpg" alt="Фірмовий стиль" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Фірмовий стиль готелю "Villa Breez" </h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                    Розробка логотипу, кольорової системи, патерну та носіїв фірмового стилю.
+                </p>
+            </div>
+        </article>
+        
+        <article class="gallery-card" data-category="identity">
+            <img src="images/фр2.jpg" alt="Фірмовий стиль" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Серія упаковок шоколаду "CHOKO ROKO" </h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                    Розробка 6 видів упаковок для шоколаду.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="identity">
+            <img src="images/фр3.jpg" alt="Фірмовий стиль" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Фірмовий стиль ресторану "Opulent" </h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                    Розробка логотипу, меню, бейджів, резерва та рекламу продукцію.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="visualization">
+            <img src="images/3d1.jpg" alt="3D Max" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Новорічний 3D натюрморт</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                    3D модулявання.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="visualization">
+            <img src="images/3d2.jpg" alt="3D Max" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>3D натюрморт</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                    3D модулявання та використання Ivy-generator.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="visualization">
+            <img src="images/3d3.jpg" alt="3D Max" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>3D-візуалізація інтер’єру бібліотеки</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                   Візуалізація інтер'єру бібліотеки у приватному будинку.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="visualization">
+            <img src="images/3d4.jpg" alt="3D Max" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>3D-візуалізація інтер’єру новорічної кухні</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                   Візуалізація інтер'єру кухню з новорічними прикрасами.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="visualization">
+            <img src="images/3d5.jpg" alt="3D Max" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>3D-візуалізація інтер’єру офісу</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                   Візуалізація робочої зони офісу дизайнерського бюро.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="visualization">
+            <img src="images/3d6.jpg" alt="3D Max" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>3D-візуалізація інтер’єру офісу</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                   Візуалізація конференц зали офісу дизайнерського бюро.
+                </p>
+            </div>
+        </article>
+
+       <article class="gallery-card" data-category="modeling">
+            <img src="images/мк1.jpg" alt="Макетування" class="gallery-image">
+            <div class="gallery-card-content">
+            <h3>Тришарова композиція</h3>
+            <p class="gallery-date">2024</p>
+            <p class="gallery-description">
+            Макет тришарової композиції.
+            </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="modeling">
+            <img src="images/мк2.jpg" alt="Макетування" class="gallery-image">
+            <div class="gallery-card-content">
+            <h3>Кутова композиція</h3>
+            <p class="gallery-date">2024</p>
+            <p class="gallery-description">
+            Макет кутової композиції.
+            </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="modeling">
+            <img src="images/мк3.jpg" alt="Макетування" class="gallery-image">
+            <div class="gallery-card-content">
+            <h3>Поглиблення простору</h3>
+            <p class="gallery-date">2025</p>
+            <p class="gallery-description">
+            Макет стоворений для відчуття перспективи та простору.
+            </p>
+            </div>
+        </article>
+        
+        <article class="gallery-card" data-category="modeling">
+            <img src="images/мк4.jpg" alt="Макетування" class="gallery-image">
+            <div class="gallery-card-content">
+            <h3>Тектоніка</h3>
+            <p class="gallery-date">2025</p>
+            <p class="gallery-description">
+            Макет де форма висловлює конструктивну логику.
+            </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="modeling">
+            <img src="images/мк5.jpg" alt="Макетування" class="gallery-image">
+            <div class="gallery-card-content">
+            <h3>Вітрина магазину "Antiquorum"</h3>
+            <p class="gallery-date">2024</p>
+            <p class="gallery-description">
+            Макет витрини магазину антикваріату "Antiquorum".
+            </p>
+            </div>
+        </article>
+        
+        <article class="gallery-card" data-category="modeling">
+            <img src="images/мк6.jpg" alt="Макетування" class="gallery-image">
+            <div class="gallery-card-content">
+            <h3>Макет виставкого залу магазину "Antiquorum"</h3>
+            <p class="gallery-date">2025</p>
+            <p class="gallery-description">
+            Макет виставкого залу магазину антикваріату "Antiquorum".
+            </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="modeling">
+            <img src="images/мк7.jpg" alt="Макетування" class="gallery-image">
+            <div class="gallery-card-content">
+            <h3>Макет зупинки громадського транспорту</h3>
+            <p class="gallery-date">2025</p>
+            <p class="gallery-description">
+            Макет зупинки громадського транспорту "Arcadia".
+            </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="painting">
+            <img src="images/жв1.jpg" alt="Живопис" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3> Творчій натюрморт</h3>
+                <p class="gallery-date">2023</p>
+                <p class="gallery-description">
+                    Навчальна робота в гушної техніці.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="painting">
+            <img src="images/жв2.jpg" alt="Живопис" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3> Творчій натюрморт</h3>
+                <p class="gallery-date">2023</p>
+                <p class="gallery-description">
+                    Навчальна робота в гушної техніці.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="painting">
+            <img src="images/жв3.jpg" alt="Живопис" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3> Ахроматичний натюрморт</h3>
+                <p class="gallery-date">2023</p>
+                <p class="gallery-description">
+                    Навчальна робота в акварельної техніці.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="painting">
+            <img src="images/жв4.jpg" alt="Живопис" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3> Натюрморт</h3>
+                <p class="gallery-date">2024</p>
+                <p class="gallery-description">
+                    Навчальна робота в акварельної техніці.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="painting">
+            <img src="images/жв5.jpg" alt="Живопис" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3> Монохромний натюрморт</h3>
+                <p class="gallery-date">2024</p>
+                <p class="gallery-description">
+                    Навчальна робота в акварельної техніці.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="painting">
+            <img src="images/жв6.jpg" alt="Живопис" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3> Натюрморт</h3>
+                <p class="gallery-date">2024</p>
+                <p class="gallery-description">
+                    Навчальна робота в акварельної техніці.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="painting">
+            <img src="images/жв7.jpg" alt="Живопис" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3> Натюрморт кавою</h3>
+                <p class="gallery-date">2024</p>
+                <p class="gallery-description">
+                    Навчальна робота в акварельної техніці зробленая кавою.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="painting">
+            <img src="images/жв15.jpg" alt="Живопис" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3> Натюрморт</h3>
+                <p class="gallery-date">2024</p>
+                <p class="gallery-description">
+                    Навчальна робота в акварельної техніці.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="painting">
+            <img src="images/жв16.jpg" alt="Живопис" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3> Натюрморт</h3>
+                <p class="gallery-date">2024</p>
+                <p class="gallery-description">
+                    Навчальна робота в акварельної техніці.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="painting">
+            <img src="images/жв8.jpg" alt="Живопис" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3> Натюрморт у контр-ажурі</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                    Навчальна робота в акварельної техніці у контр-ажурі.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="painting">
+            <img src="images/жв9.jpg" alt="Живопис" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3> Грецький натюрморт</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                    Навчальна робота в акварельної техніці.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="painting">
+            <img src="images/жв10.jpg" alt="Живопис" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3> Етюдний натюрморт</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                    Навчальна робота в акварельної техніці.
+                </p>
+            </div>
+        </article>
+
+         <article class="gallery-card" data-category="painting">
+            <img src="images/жв11.jpg" alt="Живопис" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3> Натюрморт з гіпсовою головою</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                    Навчальна робота в акварельної техніці.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="painting">
+            <img src="images/жв12.jpg" alt="Живопис" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3> Натюрморт в інтер'єрі</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                    Навчальна робота в акварельної техніці.
+                </p>
+            </div>
+        </article>
+
+         <article class="gallery-card" data-category="painting">
+            <img src="images/жв13.jpg" alt="Живопис" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3> Копія китайського натюрморту</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                    Навчальна робота в акварельної техніці.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="painting">
+            <img src="images/жв14.jpg" alt="Живопис" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3> Натюрморт з черепом</h3>
+                <p class="gallery-date">2026</p>
+                <p class="gallery-description">
+                    Навчальна робота в акварельної техніці.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="drawing">
+            <img src="images/рс1.jpg" alt="Рисунок" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Натюрморт олівцем</h3>
+                <p class="gallery-date">2023</p>
+                <p class="gallery-description">
+                    Графічна робота з акцентом на матеріали, об’єм і світлотінь.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="drawing">
+            <img src="images/рс2.jpg" alt="Рисунок" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Натюрморт олівцем</h3>
+                <p class="gallery-date">2024</p>
+                <p class="gallery-description">
+                    Графічна робота з акцентом на матеріали, об’єм і світлотінь.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="drawing">
+            <img src="images/рс3.jpg" alt="Рисунок" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Драпірування пастелью</h3>
+                <p class="gallery-date">2023</p>
+                <p class="gallery-description">
+                    Графічна робота з акцентом на матеріали, об’єм і світлотінь.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="drawing">
+            <img src="images/рс4.jpg" alt="Рисунок" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Натюрморт пастелью</h3>
+                <p class="gallery-date">2023</p>
+                <p class="gallery-description">
+                    Графічна робота з акцентом на матеріали, об’єм і світлотінь.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="drawing">
+            <img src="images/рс5.jpg" alt="Рисунок" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Натюрморт пастелью</h3>
+                <p class="gallery-date">2024</p>
+                <p class="gallery-description">
+                    Графічна робота з акцентом на матеріали, об’єм і світлотінь.
+                </p>
+            </div>
+        </article>
+
+         <article class="gallery-card" data-category="drawing">
+            <img src="images/рс6.jpg" alt="Рисунок" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Екстер'єр у графічній техніці</h3>
+                <p class="gallery-date">2024</p>
+                <p class="gallery-description">
+                    Графічна робота акварелю та лайнером.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="drawing">
+            <img src="images/рс7.jpg" alt="Рисунок" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Череп</h3>
+                <p class="gallery-date">2024</p>
+                <p class="gallery-description">
+                    Академічний рисунок.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="drawing">
+            <img src="images/рс8.jpg" alt="Рисунок" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Частини лиця</h3>
+                <p class="gallery-date">2024</p>
+                <p class="gallery-description">
+                    Академічний рисунок.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="drawing">
+            <img src="images/рс9.jpg" alt="Рисунок" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Екорше</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                    Академічний рисунок.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="drawing">
+            <img src="images/рс10.jpg" alt="Рисунок" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Гіпсова голова Гатамілата</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                    Академічний рисунок.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="drawing">
+            <img src="images/рс11.jpg" alt="Рисунок" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Гіпсова голова Діани</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                    Академічний рисунок.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="drawing">
+            <img src="images/рс12.jpg" alt="Рисунок" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Гіпсова голова Антіноя та Аполлона</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                    Академічний рисунок.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="drawing">
+            <img src="images/рс13.jpg" alt="Рисунок" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Рисунок людини</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                    Академічний рисунок.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="drawing">
+            <img src="images/рс14.jpg" alt="Рисунок" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Рисунок людини в повний рост</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                    Академічний рисунок.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="drawing">
+            <img src="images/рс15.jpg" alt="Рисунок" class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Творча робота</h3>
+                <p class="gallery-date">2025</p>
+                <p class="gallery-description">
+                    Академічний рисунок.
+                </p>
+            </div>
+        </article>
+
+
+        <article class="gallery-card" data-category="composition">
+            <img src="images/км1.jpg" alt="Композиція"class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Формальна композиція</h3>
+                <p class="gallery-date">2023</p>
+                <p class="gallery-description">
+                   Побудова художнього образу на основі абстрактних елементів (лінії, плями, геометричні фігури, колір), позбавлена конкретного предметного змісту.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="composition">
+            <img src="images/км2.jpg" alt="Композиція"class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Ахромотична формальна композиція</h3>
+                <p class="gallery-date">2023</p>
+                <p class="gallery-description">
+                    Побудова художнього образу на основі абстрактних елементів (лінії, плями, геометричні фігури, колір), позбавлена конкретного предметного змісту.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="composition">
+            <img src="images/км3.jpg" alt="Композиція"class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Формальна композиція</h3>
+                <p class="gallery-date">2023</p>
+                <p class="gallery-description">
+                    Побудова художнього образу на основі абстрактних елементів (лінії, плями, геометричні фігури, колір), позбавлена конкретного предметного змісту.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="composition">
+            <img src="images/км4.jpg" alt="Композиція"class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Формальна композиція</h3>
+                <p class="gallery-date">2023</p>
+                <p class="gallery-description">
+                    Побудова художнього образу на основі абстрактних елементів (лінії, плями, геометричні фігури, колір), позбавлена конкретного предметного змісту.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="composition">
+            <img src="images/км5.jpg" alt="Композиція"class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Формальна композиція</h3>
+                <p class="gallery-date">2023</p>
+                <p class="gallery-description">
+                    Побудова художнього образу на основі абстрактних елементів (лінії, плями, геометричні фігури, колір), позбавлена конкретного предметного змісту.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="composition">
+            <img src="images/км6.jpg" alt="Композиція"class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Формальна композиція</h3>
+                <p class="gallery-date">2023</p>
+                <p class="gallery-description">
+                    Побудова художнього образу на основі абстрактних елементів (лінії, плями, геометричні фігури, колір), позбавлена конкретного предметного змісту.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="composition">
+            <img src="images/км7.jpg" alt="Композиція"class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Формальна композиція</h3>
+                <p class="gallery-date">2023</p>
+                <p class="gallery-description">
+                    Побудова художнього образу на основі абстрактних елементів (лінії, плями, геометричні фігури, колір), позбавлена конкретного предметного змісту.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="composition">
+            <img src="images/км8.jpg" alt="Композиція"class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Формальна композиція</h3>
+                <p class="gallery-date">2023</p>
+                <p class="gallery-description">
+                    Побудова художнього образу на основі абстрактних елементів (лінії, плями, геометричні фігури, колір), позбавлена конкретного предметного змісту.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="composition">
+            <img src="images/км9.jpg" alt="Композиція"class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Формальна композиція</h3>
+                <p class="gallery-date">2023</p>
+                <p class="gallery-description">
+                    Побудова художнього образу на основі абстрактних елементів (лінії, плями, геометричні фігури, колір), позбавлена конкретного предметного змісту.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="composition">
+            <img src="images/км10.jpg" alt="Композиція"class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Композиція золотий перетин</h3>
+                <p class="gallery-date">2024</p>
+                <p class="gallery-description">
+                Математично вивірене співвідношення частин (приблизно 1:1,618), яке створює візуально гармонійну, збалансовану та приємну для людського ока структуру.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="composition">
+            <img src="images/км11.jpg" alt="Композиція"class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Асоціативна композиція</h3>
+                <p class="gallery-date">2024</p>
+                <p class="gallery-description">
+               Асоціативна композиція: почуття "Розчарування". Асоціативна композиція базуется не на прямому зображенні сюжету, а на створенні образу через психологічні асоціації, почуття, текстури, кольори та форми, викликані певним явищем або поняттям.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="composition">
+            <img src="images/км12.jpg" alt="Композиція"class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Асоціативна композиція</h3>
+                <p class="gallery-date">2024</p>
+                <p class="gallery-description">
+               Асоціативна композиція: країна "Китай". Асоціативна композиція базуется не на прямому зображенні сюжету, а на створенні образу через психологічні асоціації, почуття, текстури, кольори та форми, викликані певним явищем або поняттям.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="composition">
+            <img src="images/км13.jpg" alt="Композиція"class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Асоціативна композиція</h3>
+                <p class="gallery-date">2024</p>
+                <p class="gallery-description">
+               Асоціативна композиція: коледж "Север". Асоціативна композиція базуется не на прямому зображенні сюжету, а на створенні образу через психологічні асоціації, почуття, текстури, кольори та форми, викликані певним явищем або поняттям.
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="composition">
+            <img src="images/км15.jpg" alt="Композиція"class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Колаж</h3>
+                <p class="gallery-date">2023</p>
+                <p class="gallery-description">
+               Технічний прийом в образотворчому мистецтві та вид декоративно-ужиткового мистецтва, при якому композиція створюється шляхом наклеювання на основу матеріалів, різних за кольором та фактурою: вирізок із газет, журналів, тканин, фотографій, шпалер чи інших елементів
+                </p>
+            </div>
+        </article>
+
+        <article class="gallery-card" data-category="composition">
+            <img src="images/км16.jpg" alt="Композиція"class="gallery-image">
+            <div class="gallery-card-content">
+                <h3>Колаж</h3>
+                <p class="gallery-date">2024</p>
+                <p class="gallery-description">
+               Технічний прийом в образотворчому мистецтві та вид декоративно-ужиткового мистецтва, при якому композиція створюється шляхом наклеювання на основу матеріалів, різних за кольором та фактурою: вирізок із газет, журналів, тканин, фотографій, шпалер чи інших елементів
+                </p>
+            </div>
+        </article>
+
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3 class="footer-title">PORTFOLIO</h3>
+                <p class="footer-description">
+                    Портфоліо дизайнерки інтер’єру, графічного дизайну та 3D-візуалізації.
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-subtitle">Навігація</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="index.html#about">Про мене</a></li>
+                    <li><a href="index.html#works">Мої роботи</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4 class="footer-subtitle">Контакти</h4>
+                <p>Email: gelever_design@email.com</p>
+                <p>Телефон: +38 (093) 123-45-67</p>
+                <p>Instagram: @gelever</p>
+                <p>Behance: behance.net/gelever</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 Усі права захищені.</p>
+        </div>
+    </footer>
+
+   <div class="image-modal" id="imageModal">
+        <span class="image-modal-close">&times;</span>
+        <img class="image-modal-content" id="modalImage" alt="Збільшене фото">
+    </div>
+
+<script>
+   const buttons = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.gallery-card');
+
+    function filterGallery(filter) {
+        cards.forEach(card => {
+            if (filter === 'all' || card.dataset.category === filter) {
+                card.style.display = 'flex';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+
+        buttons.forEach(btn => {
+            btn.classList.remove('active');
+
+            if (btn.dataset.filter === filter) {
+                btn.classList.add('active');
+            }
+        });
+    }
+
+    buttons.forEach(button => {
+        button.addEventListener('click', () => {
+            const filter = button.dataset.filter;
+            filterGallery(filter);
+        });
+    });
+
+    const params = new URLSearchParams(window.location.search);
+    const categoryFromUrl = params.get('category');
+
+    if (categoryFromUrl) {
+        filterGallery(categoryFromUrl);
+    } else {
+        filterGallery('all');
+    }
+
+    const galleryImages = document.querySelectorAll('.gallery-card img'); 
+    const imageModal = document.getElementById('imageModal');
+    const modalImage = document.getElementById('modalImage');
+    const modalClose = document.querySelector('.image-modal-close');
+
+    galleryImages.forEach(image => {
+        image.addEventListener('click', () =>{
+            imageModal.classList.add('show');
+            modalImage.src = image.src;
+            modalImage.alt = image.alt;
+        });
+    });
+
+    modalClose.addEventListener('click',() => {
+        imageModal.classList.remove('show');
+    });
+
+    imageModal.addEventListener('click', (event) => {
+        if(event.target === imageModal) {
+            imageModal.classList.remove('show');
+        }
+    });
+</script>
+</body>
+</html>

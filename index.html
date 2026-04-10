@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій сайт — дизайнер</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== Навігація ===== -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="images/лого1.png" alt="Логотип"class="logo">
+            <input type="search" placeholder="Пошук...">
+            <span class="phone">📞 +38 (093) 123-45-67</span>
+        </div>
+            
+
+        <ul class="nav-menu">
+            <li><a href="#">Головна</a></li>
+            <li><a href="#about">Про мене</a></li>
+            <li><a href="gallery.html">Галерея</a></li>
+            <li><a href="#footer">Контакти</a></li>
+        </ul> 
+    </nav>
+
+    <!-- ===== Header ===== -->
+    <header class="header">
+        <div class="header-text">
+            <h1>PORTFOLIO</h1>
+            <p class="slogan">Дизайн як система: логіка, естетика та цілісність у кожному проєкті. </p>
+            <a href="gallery.html" class="btn">Перейти до робіт</a>
+        </div>
+    </header>
+    <div class="divider"></div>
+
+   
+    <!-- ===== Мої роботи ===== -->
+    <h2 class="m" >Мої роботи</h2>
+    <div class="line" id="works"></div>
+    <section class="container">
+         <div class="cards">
+            <div class="project-card" style="background-image: url();"> </div>
+            <div class="project-into"></div> 
+            <img src="images/фирменый стиль гл.jpg" alt="Фірмовий стиль">
+            <h3>Фірмовий стиль</h3>
+            <p>Айдентика та брендинг</p>
+            <a href="gallery.html?category=identity" class="card-btn"> Перейти</a>
+        </div>
+        <div class="cards">
+            <div class="project-card" style="background-image: url();"> </div>
+            <!-- в урл потом ссылку на страницу с работами-->
+            <div class="project-into"></div>
+             <img src="images/3д макс гл.jpg" alt="3D Max">
+              <h3>3D Max</h3>
+              <p>Візуалізації інтерьр'єру</p>
+              <a href="gallery.html?category=visualization" class="card-btn"> Перейти</a>
+        </div>
+        <div class="cards">
+            <div class="project-card" style="background-image: url();"> </div>
+            <div class="project-into"></div>
+             <img src="images/макетирование  гл.jpg" alt="Макетування">
+              <h3>Макетування</h3>
+              <p>Об'ємні моделі, поглиблення простору, тіктоніка та ін.</p>
+              <a href="gallery.html?category=modeling" class="card-btn"> Перейти</a>
+        </div>
+        <div class="cards">
+            <div class="project-card" style="background-image: url();"> </div>
+            <div class="project-into"></div>
+             <img src="images/живопись гл.jpg" alt="Живопис">
+              <h3>Живопис</h3>
+              <p>Акварельна техніка живопису</p>
+              <a href="gallery.html?category=painting" class="card-btn"> Перейти</a>
+        </div> 
+        <div class="cards">
+            <div class="project-card" style="background-image: url();"> </div>
+            <div class="project-into"></div>
+             <img src="images/рисунок гл.jpg" alt="Рисунок">
+              <h3>Рисунок</h3>
+              <p>Академічний рисунок, графіка і пр.</p>
+              <a href="gallery.html?category=drawing" class="card-btn"> Перейти</a>
+        </div> 
+         <div class="cards">
+            <div class="project-card" style="background-image: url();"> </div>
+            <div class="project-into"></div>
+             <img src="images/композиция гл.jpg" alt="Композиція">
+              <h3>Композиція</h3>
+              <p> Основи та візуальний баланс</p>
+              <a href="gallery.html?category=composition" class="card-btn"> Перейти</a>
+        </div>
+
+     </section>
+        <div class="divideg"></div>
+
+     <!-- ===== Про мене ===== -->
+        <section class="about" id="about">
+     <div class="about-wrapper">
+
+        <div class="about-content">
+            <h2 class="about-title">Про мене</h2>
+            <div class="about-line"></div>
+            <p class="about-text">
+                Мене звати Єлизавета Гелевер, я дизайнер інтер’єру та графічного дизайну.
+                Працюю з айдентикою, 3D-візуалізацією та просторовими рішеннями,
+                створюючи цілісні та концептуально продумані проєкти.
+            </p>
+        </div>
+
+        <div class="about-visual">
+            <img src="images/про мене.png" alt="Мій проєкт">
+        </div>
+
+    </div>
+        </section>
+    <div class="dividel"></div>
+
+        <!-- ===== ДИПЛОМ ===== -->
+    <section class="diploma">
+        <h2 class="diploma-title">Моя дипломна робота</h2>
+     <div class="line-projects"></div>
+     <div class="diploma-wrapper">
+
+        <div class="diploma-visual">
+            <img src="images/диплом.jpg" alt="Дипломний проєкт">
+        </div>
+
+        <div class="diploma-content">
+
+            <!-- ТЕМА -->
+            <p class="diploma-topic">
+                Дизайн-проєкт інтер'єру та айдентики арт-простору
+            </p>
+
+            <!-- ОПИС -->
+            <p class="diploma-text">
+                Проєкт розроблений на основі реконструкції промислової будівлі
+                з адаптацією під сучасний арт-простір. Основна ідея полягає
+                у поєднанні індустріальної естетики з функціональністю
+                культурного середовища.
+            </p>
+        </div>
+
+    </div>
+
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+    <div class="footer-container" id="footer">
+
+        <div class="footer-column">
+            <h3 class="footer-title">PORTFOLIO</h3>
+            <p class="footer-description">
+                Портфоліо дизайнера інтер’єру, графічного дизайну та 3D-візуалізації.
+            </p>
+        </div>
+
+        <div class="footer-column">
+            <h4 class="footer-subtitle">Навігація</h4>
+            <ul class="footer-links">
+                <li><a href="#">Головна</a></li>
+                <li><a href="#about">Про мене</a></li>
+                <li><a href="#works">Мої роботи</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h4 class="footer-subtitle">Контакти</h4>
+            <p>Email: gelever_design@email.com</p>
+            <p>Телефон: +38 (093) 123-45-67</p>
+            <p>Instagram: @gelever</p>
+            <p>Behance: behance.net/gelever</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Усі права захищені.</p>
+    </div>
+</footer>
+</body>
+
+</html>
